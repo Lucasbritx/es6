@@ -23,5 +23,12 @@ const contacts = {
   age: 35,
 };
 const { name: otherName, famillyName, age } = contacts;
-console.log( otherName, famillyName, age );
+console.log(otherName, famillyName, age);
 // output: Bruno Santos 35
+
+const Arr = ["Lionel", "Messi", "Cristiano"];
+
+const [value1, value2, value3] = Arr;
+
+console.log(value1, value2, value3);
+// output: Lionel Messi Cristiano
