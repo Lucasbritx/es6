@@ -22,6 +22,6 @@ const contacts = {
   famillyName: "Santos",
   age: 35,
 };
-const { name, famillyName, age } = contacts;
-console.log( name, famillyName, age );
+const { name: otherName, famillyName, age } = contacts;
+console.log( otherName, famillyName, age );
 // output: Bruno Santos 35
