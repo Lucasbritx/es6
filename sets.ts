@@ -12,7 +12,6 @@ letters.add("c");
 console.log(letters);
 // output: Set(3) { 'a', 'b', 'c' }
 
-
 // List all Elements
 let text = "";
 for (const x of letters) {
@@ -21,3 +20,9 @@ for (const x of letters) {
 
 console.log(text);
 // output: abc
+
+console.log(typeof letters);
+// Returns object
+
+console.log(letters instanceof Set);
+// Returns true
