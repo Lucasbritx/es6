@@ -88,6 +88,14 @@ for (const x of fruits.values()) {
 console.log(textValues);
 //output: 300200100
 
+// Sum all values
+let total = 0;
+for (const x of fruits.values()) {
+  total += x;
+}
+console.log(total);
+// output: 600
+
 fruits.clear();
 console.log(fruits);
 // output: Map(0) {}
